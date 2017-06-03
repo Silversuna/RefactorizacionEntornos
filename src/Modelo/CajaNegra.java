@@ -32,7 +32,7 @@ public class CajaNegra implements Serializable{
         
         PrintWriter pw = new PrintWriter(new FileWriter(f,true));
         
-        String cadena = new String(System.currentTimeMillis()+ " " + estado.getAltitud() + " " + estado.getRumbo());
+        String cadena = new String(System.currentTimeMillis()+ " " + estado.getAltura() + " " + estado.getRumbo());
         
         pw.println(cadena);
         

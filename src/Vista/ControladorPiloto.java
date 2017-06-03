@@ -38,7 +38,7 @@ public class ControladorPiloto {
     
     public void modificarAltitud() throws IOException{
         int nuevaAltitud = Integer.parseInt(vista.getjTextFieldAltitud().getText());
-        EstadoDeVueloO.devolverEstado().setAltitud(nuevaAltitud);
+        EstadoDeVueloO.devolverEstado().setAltura(nuevaAltitud);
     }
     
     // NOTA : LLAMAREMOS DESDE LA VISTA A ESTE CONTROLADOR EN CADA UNO DE LOS ACTIONS PERFORM
